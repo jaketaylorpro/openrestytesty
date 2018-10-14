@@ -1,0 +1,2 @@
+#docker run -p 80:80 openrestytesty
+docker run -p 80:80 --link postgres:postgres openrestytesty
